@@ -8,6 +8,7 @@ let x;
 reset.addEventListener('click',function(){
    
      ctime.innerHTML = "00:00:00"; 
+     flag.innerHTML="Start";
      clearInterval(x);
 });
 
